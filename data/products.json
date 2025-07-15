@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Carabiner",
+    "category": "Camping Gear",
+    "price": 25.00,
+    "imageUrl": "https://example.com/images/carabiner.jpg"
+  },
+  {
+    "name": "Adventure Backpack",
+    "category": "Camping Gear",
+    "price": 100.00,
+    "imageUrl": "https://example.com/images/adventure-backpack.jpg"
+  },
+  {
+    "name": "Camp Cooking Set",
+    "category": "Camping Gear",
+    "price": 200.00,
+    "imageUrl": "https://example.com/images/camp-cooking-set.jpg"
+  },
+  {
+    "name": "Portable Griddle Table",
+    "category": "Camping Gear",
+    "price": 129.99,
+    "imageUrl": "https://example.com/images/portable-griddle-table.jpg"
+  }
+]
