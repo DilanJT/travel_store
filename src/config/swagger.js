@@ -1,5 +1,11 @@
 import swaggerJsdoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+const port = process.env.PORT || 8000;
+console.log("Swagger port:", port);
 
 const options = {
   definition: {
@@ -9,6 +15,12 @@ const options = {
       version: '1.0.0',
       description: 'Swagger documentation for travel_store',
     },
+    servers: [
+      {
+        url: 'http://localhost:' + port,
+        description: 'Development server',
+      },
+    ],
   },
   apis: ['./src/routes/*.js'],
 };

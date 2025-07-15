@@ -109,7 +109,7 @@ const router = express.Router();
 
 /**
  * @swagger
- * /:
+ * /api/products/:
  *   get:
  *     summary: Get all products or filter by category
  *     description: Retrieve a list of all products. Can be filtered by category using query parameter.
@@ -179,7 +179,7 @@ router.get('/', getAllProducts);
 
 /**
  * @swagger
- * /{id}:
+ * /api/products/{id}:
  *   get:
  *     summary: Get a product by ID
  *     description: Retrieve a single product using its unique MongoDB ObjectId
@@ -244,7 +244,7 @@ router.get('/:id', getProductById);
 
 /**
  * @swagger
- * /:
+ * /api/products/:
  *   post:
  *     summary: Create a new product
  *     description: Add a new product to the e-commerce catalog with validation
