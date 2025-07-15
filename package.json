@@ -1,0 +1,24 @@
+{
+  "name": "travel_store",
+  "version": "1.0.0",
+  "description": "a simple travel store with mongodb db integrated",
+  "keywords": [
+    "ecommerce"
+  ],
+  "homepage": "https://github.com/DilanJT/travel_store#readme",
+  "bugs": {
+    "url": "https://github.com/DilanJT/travel_store/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DilanJT/travel_store.git"
+  },
+  "license": "ISC",
+  "author": "dicmandilan@gmail.com",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  }
+}
